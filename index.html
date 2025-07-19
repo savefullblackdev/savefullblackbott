@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram CC Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Telegram CC Dashboard</h1>
+    </header>
+    <main>
+        <section id="card-list">
+            <h2>Credit Cards</h2>
+            <ul id="cards"></ul>
+        </section>
+        <section id="add-balance">
+            <h2>Add Balance</h2>
+            <form id="balance-form">
+                <input type="number" id="amount" placeholder="Enter amount" required>
+                <button type="submit">Add Balance</button>
+            </form>
+            <div id="payment-link"></div>
+        </section>
+    </main>
+    <script src="../src/app.js"></script>
+</body>
+</html>

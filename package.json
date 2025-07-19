@@ -1,0 +1,26 @@
+{
+  "name": "telegram-cc-dashboard",
+  "version": "1.0.0",
+  "description": "A dashboard for managing credit cards and user balance in a Telegram bot.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "telegram",
+    "dashboard",
+    "credit cards",
+    "balance management"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
